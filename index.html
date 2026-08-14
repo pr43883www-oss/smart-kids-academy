@@ -105,7 +105,7 @@ header {
     margin-bottom: 30px;
 }
 
-/* ================= BUTTON ================= */
+/* ================= BUTTONS ================= */
 
 .btn {
     display: inline-block;
@@ -116,6 +116,7 @@ header {
     border-radius: 12px;
     font-weight: bold;
     margin-right: 10px;
+    margin-bottom: 10px;
     transition: 0.25s;
 }
 
@@ -130,7 +131,7 @@ header {
     border: 2px solid #d9e5ff;
 }
 
-/* ================= PHONE ================= */
+/* ================= PHONE PREVIEW ================= */
 
 .phone {
     width: 300px;
@@ -224,6 +225,7 @@ section {
 
 .category:hover {
     transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(80,100,140,0.15);
 }
 
 .category-icon {
@@ -423,10 +425,6 @@ footer a:hover {
         width: 275px;
     }
 
-    .btn {
-        margin-bottom: 10px;
-    }
-
     .download h2 {
         font-size: 30px;
     }
@@ -439,7 +437,6 @@ footer a:hover {
 <!-- ================= NAVBAR ================= -->
 
 <header>
-
 <nav class="navbar">
 
     <div class="logo">
@@ -447,21 +444,14 @@ footer a:hover {
     </div>
 
     <div class="nav-links">
-
         <a href="#home">Home</a>
-
         <a href="#learn">Learn</a>
-
         <a href="#features">Features</a>
-
         <a href="#videos">Videos</a>
-
         <a href="#privacy">Privacy</a>
-
     </div>
 
 </nav>
-
 </header>
 
 
@@ -471,99 +461,94 @@ footer a:hover {
 
 <section class="hero">
 
-<div>
+    <div>
 
-    <div class="badge">
-        🌟 Learn • Explore • Grow
-    </div>
-
-    <h1>
-        Make Learning
-        <span>Fun!</span>
-    </h1>
-
-    <p>
-        Smart Kids Academy is an interactive
-        learning app for kids and young learners.
-        Discover letters, colors, animals, fruits,
-        educational videos, quizzes and much more.
-    </p>
-
-
-    <!-- GOOGLE PLAY BUTTON -->
-
-    <a
-        href="https://play.google.com/store/apps/details?id=com.my.smart"
-        class="btn"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        ▶ Get it on Google Play
-    </a>
-
-
-    <a
-        href="#learn"
-        class="btn btn-outline"
-    >
-        Explore Learning
-    </a>
-
-</div>
-
-
-<!-- PHONE PREVIEW -->
-
-<div class="phone">
-
-<div class="phone-screen">
-
-    <h2>
-        Welcome! 👋
-    </h2>
-
-    <p>
-        What would you like to learn?
-    </p>
-
-
-    <div class="mini-grid">
-
-        <div class="mini-card">
-            <div>🔤</div>
-            Alphabet
+        <div class="badge">
+            🌟 Learn • Explore • Grow
         </div>
 
-        <div class="mini-card">
-            <div>🇮🇳</div>
-            Hindi
-        </div>
+        <h1>
+            Make Learning
+            <span>Fun!</span>
+        </h1>
 
-        <div class="mini-card">
-            <div>🎨</div>
-            Colors
-        </div>
+        <p>
+            Smart Kids Academy is an interactive
+            learning app for kids and young learners.
+            Discover letters, colors, animals, fruits,
+            educational videos, quizzes and much more.
+        </p>
 
-        <div class="mini-card">
-            <div>🐶</div>
-            Animals
-        </div>
+        <!-- GOOGLE PLAY BUTTON -->
 
-        <div class="mini-card">
-            <div>🍎</div>
-            Fruits
-        </div>
+        <a
+            href="https://play.google.com/store/apps/details?id=com.my.smart"
+            class="btn"
+            target="_blank"
+            rel="noopener noreferrer">
+            ▶ Get it on Google Play
+        </a>
 
-        <div class="mini-card">
-            <div>🥕</div>
-            Vegetables
-        </div>
+        <a
+            href="#learn"
+            class="btn btn-outline">
+            Explore Learning
+        </a>
 
     </div>
 
-</div>
 
-</div>
+    <!-- PHONE PREVIEW -->
+
+    <div class="phone">
+
+        <div class="phone-screen">
+
+            <h2>
+                Welcome! 👋
+            </h2>
+
+            <p>
+                What would you like to learn?
+            </p>
+
+            <div class="mini-grid">
+
+                <div class="mini-card">
+                    <div>🔤</div>
+                    Alphabet
+                </div>
+
+                <div class="mini-card">
+                    <div>🇮🇳</div>
+                    Hindi
+                </div>
+
+                <div class="mini-card">
+                    <div>🎨</div>
+                    Colors
+                </div>
+
+                <div class="mini-card">
+                    <div>🐶</div>
+                    Animals
+                </div>
+
+                <div class="mini-card">
+                    <div>🍎</div>
+                    Fruits
+                </div>
+
+                <div class="mini-card">
+                    <div>🥕</div>
+                    Vegetables
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
@@ -572,68 +557,67 @@ footer a:hover {
 
 <section id="learn">
 
-<h2 class="section-title">
-    Explore Learning
-</h2>
+    <h2 class="section-title">
+        Explore Learning
+    </h2>
 
-<p class="section-subtitle">
-    Explore fun educational categories designed
-    to help young learners build knowledge
-    and vocabulary.
-</p>
+    <p class="section-subtitle">
+        Explore fun educational categories designed
+        to help young learners build knowledge
+        and vocabulary.
+    </p>
 
+    <div class="categories">
 
-<div class="categories">
+        <div class="category">
+            <div class="category-icon">🔤</div>
+            <h3>Alphabet</h3>
+            <p>Learn A to Z</p>
+        </div>
 
-    <div class="category">
-        <div class="category-icon">🔤</div>
-        <h3>Alphabet</h3>
-        <p>Learn A to Z</p>
+        <div class="category">
+            <div class="category-icon">🇮🇳</div>
+            <h3>Hindi</h3>
+            <p>Learn Hindi letters</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🎨</div>
+            <h3>Colors</h3>
+            <p>Discover colors</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🐶</div>
+            <h3>Animals</h3>
+            <p>Learn animal names</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🐦</div>
+            <h3>Birds</h3>
+            <p>Discover birds</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🌸</div>
+            <h3>Flowers</h3>
+            <p>Explore flowers</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🐝</div>
+            <h3>Insects</h3>
+            <p>Discover insects</p>
+        </div>
+
+        <div class="category">
+            <div class="category-icon">🍎</div>
+            <h3>Fruits</h3>
+            <p>Learn fruit names</p>
+        </div>
+
     </div>
-
-    <div class="category">
-        <div class="category-icon">🇮🇳</div>
-        <h3>Hindi</h3>
-        <p>Learn Hindi letters</p>
-    </div>
-
-    <div class="category">
-        <div class="category-icon">🎨</div>
-        <h3>Colors</h3>
-        <p>Discover colors</p>
-    </div>
-
-    <div class="category">
-        <div class="category-icon">🐶</div>
-        <h3>Animals</h3>
-        <p>Learn animal names</p>
-    </div>
-
-    <div class="category">
-        <div class="category-icon">🐦</div>
-        <h3>Birds</h3>
-        <p>Discover birds</p>
-    </div>
-
-    <div class="category">
-        <div class="category-icon">🌸</div>
-        <h3>Flowers</h3>
-        <p>Explore flowers</p>
-    </div>
-
-    <div class="category">
-        <div class="category-icon">🐝</div>
-        <h3>Insects</h3>
-        <p>Discover insects</p>
-    </div>
-
-    <div class="category">
-        <div class="category-icon">🍎</div>
-        <h3>Fruits</h3>
-        <p>Learn fruit names</p>
-    </div>
-
-</div>
 
 </section>
 
@@ -642,107 +626,101 @@ footer a:hover {
 
 <section id="features">
 
-<h2 class="section-title">
-    Why Smart Kids Academy?
-</h2>
+    <h2 class="section-title">
+        Why Smart Kids Academy?
+    </h2>
 
-<p class="section-subtitle">
-    A combination of visual learning,
-    audio, videos and practice activities.
-</p>
+    <p class="section-subtitle">
+        A combination of visual learning,
+        audio, videos and practice activities.
+    </p>
 
+    <div class="features">
 
-<div class="features">
+        <div class="feature">
+            <div class="feature-icon">🎥</div>
+            <h3>Educational Videos</h3>
+            <p>
+                Watch engaging educational videos
+                directly inside the app.
+            </p>
+        </div>
 
-    <div class="feature">
-        <div class="feature-icon">🎥</div>
-        <h3>Educational Videos</h3>
-        <p>
-            Watch engaging educational videos
-            directly inside the app.
-        </p>
+        <div class="feature">
+            <div class="feature-icon">🔊</div>
+            <h3>Audio Learning</h3>
+            <p>
+                Listen to pronunciation and learn
+                words through sound.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">📝</div>
+            <h3>Quizzes</h3>
+            <p>
+                Practice what you learn with
+                interactive quizzes.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">📊</div>
+            <h3>Progress Tracking</h3>
+            <p>
+                Track completed lessons,
+                videos and learning progress.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">⭐</div>
+            <h3>Favorites</h3>
+            <p>
+                Save useful learning content
+                for quick access.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">🔐</div>
+            <h3>Multiple Login Options</h3>
+            <p>
+                Sign in using Google,
+                email/password or phone OTP.
+            </p>
+        </div>
+
     </div>
-
-    <div class="feature">
-        <div class="feature-icon">🔊</div>
-        <h3>Audio Learning</h3>
-        <p>
-            Listen to pronunciation and learn
-            words through sound.
-        </p>
-    </div>
-
-    <div class="feature">
-        <div class="feature-icon">📝</div>
-        <h3>Quizzes</h3>
-        <p>
-            Practice what you learn with
-            interactive quizzes.
-        </p>
-    </div>
-
-    <div class="feature">
-        <div class="feature-icon">📊</div>
-        <h3>Progress Tracking</h3>
-        <p>
-            Track completed lessons,
-            videos and learning progress.
-        </p>
-    </div>
-
-    <div class="feature">
-        <div class="feature-icon">⭐</div>
-        <h3>Favorites</h3>
-        <p>
-            Save useful learning content
-            for quick access.
-        </p>
-    </div>
-
-    <div class="feature">
-        <div class="feature-icon">🔐</div>
-        <h3>Multiple Login Options</h3>
-        <p>
-            Sign in using Google,
-            email/password or phone OTP.
-        </p>
-    </div>
-
-</div>
 
 </section>
 
 
 <!-- ================= VIDEOS ================= -->
 
-<section
-    class="video-section"
-    id="videos"
->
+<section class="video-section" id="videos">
 
-<div class="video-container">
+    <div class="video-container">
 
-    <h2 class="section-title">
-        🎥 Learn With Videos
-    </h2>
+        <h2 class="section-title">
+            🎥 Learn With Videos
+        </h2>
 
-    <p>
-        Educational videos can make learning
-        more visual, engaging and easier
-        to understand.
-    </p>
+        <p>
+            Educational videos can make learning
+            more visual, engaging and easier
+            to understand.
+        </p>
 
+        <a
+            href="https://play.google.com/store/apps/details?id=com.my.smart"
+            class="btn"
+            target="_blank"
+            rel="noopener noreferrer">
+            Explore Smart Kids Academy
+        </a>
 
-    <a
-        href="https://play.google.com/store/apps/details?id=com.my.smart"
-        class="btn"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        Explore Smart Kids Academy
-    </a>
-
-</div>
+    </div>
 
 </section>
 
@@ -760,15 +738,11 @@ footer a:hover {
         every learning session more enjoyable.
     </p>
 
-
-    <!-- PLAY STORE REDIRECT -->
-
     <a
         href="https://play.google.com/store/apps/details?id=com.my.smart"
         class="btn"
         target="_blank"
-        rel="noopener noreferrer"
-    >
+        rel="noopener noreferrer">
         ▶ Get it on Google Play
     </a>
 
@@ -777,10 +751,7 @@ footer a:hover {
 
 <!-- ================= PRIVACY ================= -->
 
-<section
-    class="privacy"
-    id="privacy"
->
+<section class="privacy" id="privacy">
 
     <h2>
         Privacy & Contact
@@ -795,8 +766,7 @@ footer a:hover {
 
     <a
         class="email"
-        href="mailto:android7392@protonmail.com"
-    >
+        href="mailto:android7392@protonmail.com">
         android7392@protonmail.com
     </a>
 
@@ -826,17 +796,20 @@ footer a:hover {
 
     <br>
 
-    <a href="#">
+    <!-- PRIVACY POLICY LINK -->
+
+    <a
+        href="https://privacypol8cy01.carrd.co"
+        target="_blank"
+        rel="noopener noreferrer">
         Privacy Policy
     </a>
 
     <a href="mailto:android7392@protonmail.com">
         Contact
     </a>
-<b href="https://privacypolicy01.carrd.co">
-    Privacy Policy 
-</b>
+
 </footer>
 
 </body>
-  </html>
+        </html>
